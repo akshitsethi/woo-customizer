@@ -4,14 +4,13 @@
   "require": {
     "php": ">=7.2.0"
   },
+  "type": "wordpress-plugin",
   "require-dev": {
-    "lucatume/wp-browser": "^2.2",
-    "dealerdirect/phpcodesniffer-composer-installer": "*",
-    "squizlabs/php_codesniffer": "*",
-    "wp-coding-standards/wpcs": "*",
-    "phpro/grumphp": "^0.14.2",
-    "sensiolabs/security-checker": "^5.0",
-    "maglnet/composer-require-checker": "^1.1"
+    "10up/wp_mock": "^0.4.2",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+    "squizlabs/php_codesniffer": "^3.5.4",
+    "wp-coding-standards/wpcs": "^2.2.1",
+    "phpro/grumphp": "^0.14.3"
   },
   "config": {
     "bin-dir": "bin/"
